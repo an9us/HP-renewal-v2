@@ -201,9 +201,10 @@ body {
   flex-direction: column;
   gap: 20px;
 }
+
 .floating-buttons a {
   text-decoration: none; 
-  color: inherit;
+  color: var(--black-color);
 }
 
 
