@@ -202,11 +202,6 @@ body {
   gap: 20px;
 }
 
-.floating-buttons a {
-  text-decoration: none; 
-  color: var(--black-color);
-}
-
 
 .circle-btn {
   width: 2.5rem;
@@ -214,10 +209,14 @@ body {
   background-color: rgba(255, 255, 255, 0.5); 
   border: none;
   border-radius: 50%;
-  text-align: center;
   cursor: pointer;
   box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
   transition: background-color 0.3s;
+  text-decoration: none; 
+  color: var(--black-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .circle-btn:hover {
